@@ -12,22 +12,101 @@
       name="keywords"
       content="café, noticia, triplecoffe, saude, bem-estar"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400"
     />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="favicon.ico" />
+
     <title>TripleCoffe</title>
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            class="nav__logo"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="uma logo chamada Triple Espresso com uma imagem de um tablado cortado ao meio no lado esquerdo"
+          />
+
+          <ul class="nav_links">
+            <li>
+              <a class="nav__link" href="#recipes">Sugestões</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café especial</span> na biblioteca
+          Triple Peaks
+        </h1>
+        <p class="header__description">
+          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+          você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="imagem de uma café cheio de livros com uma mesa central bagunçada,uma pessoa relaxada sentada na cadeira com as mãos sobre a nuca, mais a direita vemos outra pessoas fazendo o café!"
+        />
+        <div class="header__footer">
+          <ul class="header__paragraphs">
+            <li class="header__paragraph">Horários:</li>
+            <li class="header__paragraph">Segunda a sexta (10:00 - 19:00)</li>
+            <li class="header__paragraph">Sábado a domingo (11:00 - 18:00)</li>
+          </ul>
+          <p class="header__paragraph">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Sugestões</h2>
+          <p class="recipes__subtitle">
+            Confira alguns videos curtos abrangendo contéudos muito relevantes:
+          </p>
+          <div class="recipes__videos">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/K74l26pE4YA?si=C38Uh-GuKU9aAlSq"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-captions">
+                <p class="recipes__video-caption">Flex box in 100 seconds</p>
+                <p class="recipes__video-caption">~1 min 44s</p>
+              </div>
+            </div>
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/YEmdHbQBCSQ?si=K8rc2v4_s6EX013q"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-captions">
+                <p class="recipes__video-caption">Position in 4 minutes</p>
+                <p class="recipes__video-caption">~4 min 38s</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
       </main>
       <footer class="footer"></footer>
