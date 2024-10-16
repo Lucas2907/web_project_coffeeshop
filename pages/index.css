@@ -179,14 +179,10 @@
 }
 
 .reservation__title {
-  text-align: center;
-  margin: 0 0 80px 0;
+  margin: 0 auto 80px auto;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-}
-
-.reservation__form {
 }
 
 .form {
