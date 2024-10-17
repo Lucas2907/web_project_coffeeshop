@@ -45,15 +45,6 @@
   margin: 0;
 }
 
-.footer__link-list {
-  color: white;
-  text-decoration: none;
-}
-
-.footer__link-list:focus {
-  color: #c1c1c1;
-}
-
 .footer__list-item {
   display: flex;
   align-items: center;
@@ -69,6 +60,12 @@
   margin: 0;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__social-link:focus {
+  color: #c1c1c1;
 }
 
 .footer__social-link:hover {
