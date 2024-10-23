@@ -6,7 +6,7 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
