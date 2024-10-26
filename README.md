@@ -36,6 +36,8 @@ A página em sí não é responsiva, ou seja, a visualização no celular, trar�
 
 **projetos inicias tendem a ser mais simples para melhorar o aprendizado, porém eu me dedicarei a solucionar esses problemas o mais rápido possivel.**
 
+**Visualizar projeto: https://lucas2907.github.io/web_project_coffeeshop/**
+
 ## Autor
 
 **Lucas Pasa Garcia**
